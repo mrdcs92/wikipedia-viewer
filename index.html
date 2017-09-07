@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <title>Wikipedia Viewer</title>
+    </head>
+    <body>
+        <div class="container entryField" id="entryField">
+          <h1 class="text-center">Wikipedia Viewer</h1>
+          <div class="entry form-group col-sm-12" align="center">
+            <div class="input-group" id="searchField">
+              	<input class="form-control input-lg" type="text" id="searchTerm" placeholder="Enter search term">
+              <span class="input-group-btn">
+              	<button class="btn btn-lg btn-primary" type="button" id="submit">Submit</button>
+                <a href="https://en.wikipedia.org/wiki/Special:Random" class="btn btn-lg btn-info">Random</a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="container" id="entries"></div>
+    </body>
+</html>
