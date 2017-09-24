@@ -3,7 +3,6 @@ body {
 }
 
 .entryField {
-    width: 80%;
     height: 60%;
     position: absolute;
     top:20%;
@@ -22,10 +21,29 @@ h2 {
   margin-top: 10px;
 }
 
+.form-control {
+  width: 75%;
+  display: inline;
+}
+
 #searchField {
-  width: 70%;
+  width: 75%;
+}
+
+.myButtons {
+  display: inline;
+  margin-top: 10px;
 }
 
 #entries h2,p {
   color: black;
+}
+
+@media (max-width: 1200px) {
+  .myButtons {
+    display: block;
+  }
+  .form-control {
+    width: 100%;
+  }
 }
